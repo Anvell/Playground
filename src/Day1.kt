@@ -7,7 +7,7 @@
     Bonus: Can you do this in one pass?
 */
 
-fun main() {
+val day1 = {
     val num = 17
     val list = listOf(10, 15, 3, 7)
 
@@ -19,7 +19,7 @@ fun main() {
     )
 }
 
-fun containsSumOf(list: List<Int>, num: Int): Boolean {
+private fun containsSumOf(list: List<Int>, num: Int): Boolean {
     for ((index, currentNumber) in list.withIndex()) {
         for ((i, n) in list.withIndex()) {
             if (i != index) {
