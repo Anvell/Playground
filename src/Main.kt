@@ -2,7 +2,8 @@
 val days = mutableListOf(
         day1,
         day2,
-        day3
+        day3,
+        day4
 )
 
 fun main() {
